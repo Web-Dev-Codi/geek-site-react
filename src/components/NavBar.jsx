@@ -3,7 +3,7 @@ import React from 'react'
 function NavBar() {
     return (
       <div>
-        <div className="navbar bg-base-100 min-w-[380px]">
+        <div className="navbar bg-primary min-w-[380px]">
           <div className="dropdown">
             <div className="flex-none">
               <button className="btn btn-square btn-ghost">

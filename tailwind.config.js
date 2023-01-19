@@ -9,6 +9,7 @@ module.exports = {
       'secondary': '#9ca3af',
       'accent': '#1d4ed8',
       'green': '#13ce66',
+      'black': '#000',
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
