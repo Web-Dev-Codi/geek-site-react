@@ -9,9 +9,9 @@ function SideBar() {
       <div className="drawer-content">
         <label
           htmlFor="my-drawer-2"
-          className="btn btn-primary drawer-button lg:hidden"
+          className="btn btn-primary lg:hidden"
         >
-          Open drawer
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
         </label>
         <NavBar />
         <Card />
@@ -20,10 +20,10 @@ function SideBar() {
         <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
         <ul className="menu p-4 w-80 bg-base-100 text-base-content">
           <li>
-            <a>Sidebar Item 1</a>
+            <a>Hoodies</a>
           </li>
           <li>
-            <a>Sidebar Item 2</a>
+            <a>T-Shirts</a>
           </li>
         </ul>
       </div>
