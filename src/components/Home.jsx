@@ -1,12 +1,14 @@
 import React from 'react'
-import SideBar from './SideBar'
+import Card from './Card'
+
+
 
 function Home() {
   return (
-    <div className="flex flex-row">
-      <SideBar/>
+    <div className="mx-auto">
+     <Card/>
     </div>
-  )
+  );
 }
 
 export default Home
